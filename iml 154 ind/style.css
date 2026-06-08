@@ -1,0 +1,423 @@
+/* Fail CSS Soft Candy Estetik - Nur Shuhadah (IML254) */
+
+body {
+    background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4A3E3D;
+    margin: 0;
+    padding: 15px;
+}
+
+/* Kotak Utama Web */
+.main-candy-wrapper {
+    background-color: linear-gradient(135deg, #FFF5EE 0%, #FFF0F5 100%) !important;
+    border: 3px solid #FFB6C1;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(221, 160, 221, 0.3);
+    width: 96%;
+    margin: 10px auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Banner Atas */
+.full-banner {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+h1 {
+    font-size: 36px;
+    color: #DEB887;
+    text-shadow: 2px 2px 0px #FFF;
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Bar  line */
+.nav-container {
+    width: 100%;
+    background-color: #FFF0F5;
+    border-radius: 50px;
+    padding: 12px 20px;
+    border: 1px solid #FFB6C1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* Ruang Butang Kiri */
+.nav-buttons-left {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+/* Bentuk Butang Pill-Shape */
+.nav-btn {
+    background-color: #FFC0CB;
+    color: #6B5B5B;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 22px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 1px solid #FFA07A;
+}
+
+.nav-btn:hover {
+    background-color: #FFD700;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+/* Sistem Dropdown */
+.dropdown-menu {
+    font-family: 'Quicksand';
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    background-color:  #FFFFFF;
+    border: 1px solid #FFFF33;
+    border-radius: 12px;
+    min-width: 180px;
+    z-index: 100;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    padding: 5px 0;
+    margin-top: 0px;
+}
+
+.dropdown-menu a {
+    color: #FF00FF;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #FFF0F5;
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ruang Teks Contact Sebelah Kanan */
+.social-icons-box {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6B5B5B;
+    white-space: nowrap;
+}
+
+.wa-link {
+    color: #FF69B4;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.wa-link:hover {
+    color: #FFD700;
+}
+
+/* Kotak Kandungan Profil */
+.candy-panel-home {
+    background: linear-gradient(135deg, #FFE4E1 0%, #F0FFF0 100%) !important; 
+    border: 2px solid #FFB6C1 !important;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 25px;
+}
+
+.candy-panel-home h2 {
+    font-size: 30px;
+    color: #6B5B5B;
+    margin-top: 0;
+}
+
+.candy-panel-home p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #5C4E4E;
+}
+
+/* GAMBAR PROFIL UTAMA (Home & Biodata) */
+.img-candy-profile {
+    width: 320px; 
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* KAD MAKLUMAT BERTINGKAT (Biodata, Family & Skills) */
+.biodata-card {
+    background-color: linear-gradient(135deg, #FFF9F9 0%, #FFF0F5 100%) !important;;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #FFB6C1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.biodata-card h3 {
+    margin-top: 0;
+    color: #FF69B4;
+    font-size: 20px;
+}
+
+/* KHAS GAMBAR FAMILY BIAR LUAS MAKSIMUM */
+.img-family-luas {
+    width: 100% !important;
+    max-width: 530px !important;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* Footer */
+.candy-footer {
+    color: #A39595;
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #EAEAEA;
+}
+/* --- KHAS UNTUK PAGE FRIENDS (SISTEM TABBING) --- */
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Sembunyikan radio button asal */
+.tab-input {
+    display: none;
+}
+
+/* Reka bentuk Butang Tab (Gaya Candy) */
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.tab-label {
+    background-color: #FFFFFF;
+    color: #6B5B5B;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid #FFB6C1;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.tab-label:hover {
+    background-color: #FFF0F5;
+    transform: translateY(-2px);
+}
+
+/* tukar warna button bila ditekan */
+#tab-uni:checked ~ .tab-menu .label-uni,
+#tab-school:checked ~ .tab-menu .label-school {
+    background-color: #FFC0CB;
+    color: #FFFFFF;
+    border-color: #FFA07A;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+}
+
+/* Sembunyikan semua kandungan asal */
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+/* show content yg nak je */
+#tab-uni:checked ~ .content-uni,
+#tab-school:checked ~ .content-school {
+    display: block;
+}
+
+.friend-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;          
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.friend-card {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #FFB6C1;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    width: 42%;          
+    min-width: 320px;   
+}
+
+.img-friend {
+    width: 100%;        
+    height: 300px;      
+    object-fit: cover;  
+    border-radius: 10px;
+}
+/* --- KHAS UNTUK PAGE HOBBY (GRID KHAS MEMBESAR) --- */
+.hobby-section-title {
+    background-color: #FFF0F5;
+    border-left: 6px solid #FF69B4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #6B5B5B;
+    font-size: 22px;
+    margin: 25px 0 15px 0;
+}
+
+.hobby-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hobby-card {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #FFB6C1;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    box-sizing: border-box;
+}
+
+/* hobi tu ada 4 gambar,set saiz kad 45% (2 atas, 2 bawah) */
+.grid-4 .hobby-card {
+    width: 45%;
+    min-width: 300px;
+}
+
+
+.grid-2 .hobby-card {
+    width: 47%;
+    min-width: 340px;
+}
+
+.img-hobby {
+    width: 100%;
+    height: 280px; /* Tinggi yang ideal tak terlalu gergasi tak terlalu kecik */
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* --- KHAS UNTUK BUTANG LINK WEBSITE RASMI (PAGE EDUCATION) --- */
+.edu-link-btn {
+    background-color: #DEB887;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid #CD853F;
+    transition: all 0.3s ease;
+}
+
+.edu-link-btn:hover {
+    background-color: #FFD700;
+    color: #000 !important;
+    transform: scale(1.05);
+}
+
+.img-edu-thumbnail {
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+/* --- ANIMASI UNTUK KAD SKILLS & EXPERIENC, BIODATA & FAMILY--- */
+.animated-skill-card {
+    background-color: linear-gradient(135deg, #FFF9F9 0%, #FFF0F5 100%) !important;
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-left: 6px solid #FFB6C1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    transition: all 0.4s ease; /* Jangka masa animasi */
+}
+
+/* Efek Animasi bila lalu mouse (Hover) */
+.animated-skill-card:hover {
+    transform: translateY(-5px) scale(1.02); /* Kad ternaik sikit dan membesar */
+    border-left-color: #FFD700; /* Tukar warna palang tepi jadi kuning gold */
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+}
+
+/* Badge  untuk Jawatan */
+.job-badge {
+    background-color: #FFF0F5;
+    color: #FF69B4;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #FFB6C1;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.animated-skill-card {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-left: 6px solid #FFB6C1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    transition: all 0.4s ease;
+}
+
+.animated-skill-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-left-color: #FFD700;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+}
+
+/* --- ANIMASI KHAS UNTUK LOGO / IKON MEDSOS --- */
+.animated-icon {
+    transition: all 0.3s ease; /* Jangka masa animasi pusing/terangkat */
+}
+
+/* Bila mouse lalu atas logo, dia terangkat & membesar sikit hover  */
+.animated-icon:hover {
+    transform: translateY(-4px) scale(1.1); 
+    box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4) !important; /* Bayang pink glowing */
+}
